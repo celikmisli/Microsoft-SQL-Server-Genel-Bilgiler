@@ -466,7 +466,7 @@ SELECT * FROM @ogrenciler
 DECLARE @ogrencilersil TABLE(
 		vize varchar(10),
 		final varchar(20),
-		FİNAL2 int
+		final2 int
 )
 DELETE ogrencibilgiler
 OUTPUT DELETED.ogencivize, DELETED.ogrencifinal, DELETED.ogrencifinal2
